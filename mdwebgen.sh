@@ -12,8 +12,8 @@ if [ -f public/header.md ]; then
     rm public/header.md
 fi
 if [ -f public/footer.md ]; then
-    cat public/header.md | pandoc -f markdown -t html > public/header.html
-    rm public/header.md
+    cat public/footer.md | pandoc -f markdown -t html > public/footer.html
+    rm public/footer.md
 fi
 
 # Convert all other markdown
