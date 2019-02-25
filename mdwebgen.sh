@@ -1,6 +1,9 @@
 #! /bin/bash
 # http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_01.html
 
+# Clean html
+rm -r public/*
+
 # Copy all files to public
 # Markdown files never interfered with
 cp -r markdown/* public/
